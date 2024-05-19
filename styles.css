@@ -1,0 +1,135 @@
+:root {
+  --font-family: "Roboto Slab", sans-serif;
+  --second-family: "Helvetica", sans-serif;
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.oportunity__body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.oportunity__header {
+  display: flex;
+  height: 15vh;
+  align-items: center;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  flex: 1;
+}
+
+.item-header__logo,
+.item-header__box {
+  margin: 0;
+}
+
+.oportunity__row {
+  display: flex;
+  flex: 1;
+  margin: 0px -15px;
+}
+
+.oportunity__column {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 15px;
+}
+
+.item-oportunity {
+  flex: 0 0 33.333%;
+  margin-bottom: 2em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.item-oportunity__text {
+  max-width: 365px;
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-oportunity__image {
+  width: 365px;
+  display: flex;
+
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+
+.box {
+  width: 115px;
+  height: 38px;
+  border-radius: 20px;
+  background-color: rgb(84, 31, 168);
+  color: white;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.oportunity__title {
+  text-transform: uppercase;
+  height: 72px;
+  padding-left: 50px;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.item-oportunity__title {
+  height: 36px;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.oportunity__footer {
+  display: flex;
+  margin-top: 2em;
+  justify-content: flex-start;
+}
+
+.item-footer {
+  flex: 1;
+  margin-left: 3em;
+}
+
+.link {
+  text-decoration: none;
+  padding: 2em;
+  color: black;
+}
+
+.item-oportunity__subscribe {
+  background-color: #ec615b;
+  height: 233px;
+}
+
+.item-oportunity__subscribe__title {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 1.5em;
+  margin: 1em;
+}
+
+.item-oportunity__subscribe__form {
+  margin: 1em;
+}
+
+.subscribe {
+  width: 135px;
+  height: 38px;
+  border-radius: 20px;
+  background-color: rgb(84, 31, 168);
+  color: white;
+  font-family: "Roboto Slab", sans-serif;
+  margin: 1em;
+}
