@@ -112,7 +112,7 @@
   height: 233px;
 }
 
-.item-oportunity__subscribe__title {
+.item-oportunity__subscribe_title {
   color: white;
   text-transform: uppercase;
   font-family: "Roboto Slab", sans-serif;
@@ -120,7 +120,7 @@
   margin: 1em;
 }
 
-.item-oportunity__subscribe__form {
+.item-oportunity__subscribe_form {
   margin: 1em;
 }
 
